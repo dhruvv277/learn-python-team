@@ -23,9 +23,9 @@ def test_if_statement():
     elif number < 1:
         conclusion = 'Number is greater than zero but less than one'
     else:
-        conclusion = 'The number is positive or zero'
+        conclusion = f'The number {number} is positive and greater than or equal to one'
 
-    assert conclusion == 'The number is positive or zero'
+    assert conclusion == 'The number 15 is positive and greater than or equal to one'
 
 def test_grade_classification():
     """Test grade classification using multiple elif conditions."""
